@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn Polish with me</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header id="header">
+        <div class="logo">Learn Polish</div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#lessons">Lessons</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero" id="about">
+            <div class="hero-content animate-fade" style="animation-delay: 0.1s;">
+                <span class="hero-subtitle">Mów po polsku</span>
+                <h1>Learn Polish<br><span>with me</span></h1>
+                <p>Unlock the beauty of the Polish language. Tailored, engaging, and modern lessons designed to get you speaking fast.</p>
+                <a href="#contact" class="btn">Start Your Journey</a>
+            </div>
+            
+            <div class="hero-visual animate-fade" style="animation-delay: 0.3s;">
+                <div class="image-backdrop"></div>
+                <div class="image-wrapper">
+                    <!-- We will generate a nice aesthetic image for this -->
+                    <img src="hero-placeholder.jpg" alt="Aesthetic Polish learning visual" id="hero-img">
+                </div>
+            </div>
+        </section>
+
+        <section class="form-section" id="contact">
+            <div class="form-container">
+                <h2>Join the Class</h2>
+                <p>Book your first lesson or ask a question. Let's make learning Polish easy.</p>
+                
+                <form class="custom-form" id="signup-form">
+                    <div class="input-group">
+                        <label for="name">Your Name</label>
+                        <input type="text" id="name" name="name" placeholder="Jan Kowalski" required>
+                    </div>
+                    
+                    <div class="input-group">
+                        <label for="email">Your Email</label>
+                        <input type="email" id="email" name="email" placeholder="jan@example.com" required>
+                    </div>
+                    
+                    <div class="input-group">
+                        <label for="level">Current Polish Level</label>
+                        <input type="text" id="level" name="level" placeholder="Beginner, Intermediate, etc.">
+                    </div>
+                    
+                    <div class="input-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="4" placeholder="Tell me about your goals..."></textarea>
+                    </div>
+                    
+                    <button type="submit" class="btn">Send Details</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Learn Polish. Cześć!</p>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
