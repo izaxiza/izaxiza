@@ -10,6 +10,8 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 
+    
+
     // Form submission interaction
     const form = document.getElementById('signup-form');
     
